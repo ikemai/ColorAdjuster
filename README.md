@@ -110,7 +110,7 @@ public func colorWithHBSComponent(hue hue: CGFloat, brightness: CGFloat, saturat
 * UIColor get HBS value of color.
 
 ```swift
-public func colorHBS() -> ImColorAdjustmenter.HBSProperties?
+public func colorHBS() -> ColorAdjuster.HBSProperties?
 ```
 
 * UIColor ajustment color of RGB.
@@ -122,7 +122,7 @@ public func colorWithRGBComponent(r r: CGFloat, g: CGFloat, b: CGFloat) -> UICol
 * UIColor get RGB value of color.
 
 ```swift
-public func colorRGB() -> ImColorAdjustmenter.RGBProperties?
+public func colorRGB() -> ColorAdjuster.RGBProperties?
 ```
 
 * UIView create gradation view.

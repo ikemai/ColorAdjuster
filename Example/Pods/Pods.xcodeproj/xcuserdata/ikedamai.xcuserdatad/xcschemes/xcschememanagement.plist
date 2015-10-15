@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ColorAdjuster.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSnapshotTestCase.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ColorAdjuster_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ColorAdjuster_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>30E9B1BA1A63D136ACC78C446FF5BF5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B707284F983C771F05C480E16F289C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D0E88E6C579CE3830CAA4975F8ECC470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB0F2143EFC4B76E02B43D7C43E7DA17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

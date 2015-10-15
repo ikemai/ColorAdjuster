@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ColorAdjuster_Example', :exclusive => true do
+  pod "ColorAdjuster", :path => "../"
+end
+
+target 'ColorAdjuster_Tests', :exclusive => true do
+  pod "ColorAdjuster", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end

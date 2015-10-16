@@ -44,7 +44,7 @@ public class ColorAdjusterGradientView {
     Create gradation view
     - parameter colors: [CGClor], locations: [CGFloat] =  Please the same count.
     */
-    public func insertLayerVerticallyGradient(colors colors: [AnyObject], locations: [CGFloat]) {
+    public func insertLayerVerticallyGradient(colors colors: [CGColor], locations: [CGFloat]) {
         guard let view = view else { return }
         let layer = CAGradientLayer()
         layer.frame = CGRect(origin: CGPoint.zero, size: view.frame.size)

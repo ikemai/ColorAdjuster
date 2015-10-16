@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ColorAdjuster"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "ColorAdjuster is the library which can create a new color by HBS or RGB for the cause in base color, and create gradation view."
   s.homepage     = "https://github.com/ikemai/ColorAdjuster"
   s.license      = { :type => "MIT", :file => "LICENSE" }

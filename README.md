@@ -132,7 +132,7 @@ public func colorRGB() -> ColorAdjuster.RGBProperties?
 * UIView create gradation view.
 
 ```swift
-public func insertLayerVerticallyGradient(colors colors: [AnyObject], locations: [CGFloat]) 
+public func insertLayerVerticallyGradient(colors colors: [CGColor], locations: [CGFloat]) 
 
 ```
 

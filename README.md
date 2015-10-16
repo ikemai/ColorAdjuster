@@ -88,9 +88,13 @@ if let rbg = adjustmentColor?.colorRGB() {
 * Create gradation view.
 
 ```swift
+let targetView = UIView(frame: frame)
 let colors: [CGColor] = [UIColor.whiteColor().CGColor, UIColor.redColor().CGColor]
 let locations: [CGFloat] = [0.0, 1.0]
-targetView.layerVerticallyGradient(colors: colors, locations: locations)
+
+targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, locations: locations)
+
+view.addSubView(targetView)
 ```
 
 ### Function
@@ -128,7 +132,7 @@ public func colorRGB() -> ColorAdjuster.RGBProperties?
 * UIView create gradation view.
 
 ```swift
-public func layerVerticallyGradient(colors colors: [AnyObject], locations: [CGFloat])
+public func insertLayerVerticallyGradient(colors colors: [AnyObject], locations: [CGFloat]) 
 
 ```
 

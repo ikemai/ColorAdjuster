@@ -7,153 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		073EDE42E36940BE8B549E7C2C92FF5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB12B0688AB4ADC7132B88729D632408 /* Foundation.framework */; };
-		0D4B04D66D516B58D769EB0B202A4E0F /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2E6BCC2ABAABAFA6A93350A3A4EBED /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17C3E86F6AC8FD98C93C163FBC21C31C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B09F79117790AF31C4F565EBBB9E0A /* FBSnapshotTestCasePlatform.m */; };
-		17DFF733CF34F96A83C1BCD8C54D68FF /* Pods-ColorAdjuster_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BD3F89ACD3341F9CD0129DE17202BB /* Pods-ColorAdjuster_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E23B491C0FBE989C5D1E46BDCF17108 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E3CB5D1D49C7DAEEA79514739B21F8 /* XCTest.framework */; };
-		29E40C45113D7DF51AC4AF8398778DE0 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C96393AA9BE0EBDD15EA3D073DD3A2B0 /* UIImage+Compare.m */; };
-		3E183FC402E9C29E21069C41189268F7 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C48B52E6FD0C0ED767CAEC4F2EBDD88B /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F90BB2260D66DB700A140BB86E5F968 /* ColorAdjuster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1EEABE350625A1F62C2CF2E92A0C7D /* ColorAdjuster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43493CB31AD02F8B40A36B115935A2F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB12B0688AB4ADC7132B88729D632408 /* Foundation.framework */; };
-		4361B7B67E723473A970AECEFEF2826B /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1E1C7949E956D50E368A2481849DCA /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C9CF768C003341A9A1C71DF84645EF1 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7449D77F50F0116BB1CC151A72FACFA3 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56B71A7D1BEB8F249E22C792C63C1018 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BA6F208EB42AB09B5FAC45097FF28D /* FBSnapshotTestController.m */; };
-		591605CECC488589A34DF6683F7A28A4 /* ColorAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A81320F2C4C2937B466752459615CD /* ColorAdjuster.swift */; };
-		5E34AEA42751B53651B0679602586D57 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F9774D8A56BEF313DD3F1D1C9647B4 /* FBSnapshotTestCase-dummy.m */; };
-		660067856940FAD72F4D907EEC8090F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB12B0688AB4ADC7132B88729D632408 /* Foundation.framework */; };
-		7C2A2F745C27B730030C736632EE411E /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6406BFED77745CE6B5EB33198CCB7217 /* FBSnapshotTestCase.m */; };
-		7CA4937D28AF80852B9808434B8CFDB6 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EFB5BE369F4A36C18CA56CC1C5B6D1 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91427C37D8D0832D6928A918C55D18B1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD888EC732B0188637F2359BA0DA6C0 /* UIImage+Snapshot.m */; };
-		98507E5A02C4DD494C925F46D39E9F40 /* Pods-ColorAdjuster_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EACD40B0AD14B41A4797C9EAA5510BEF /* Pods-ColorAdjuster_Example-dummy.m */; };
-		9DC1F35C0E2098FBE0401F7ECB518093 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886FC84EC534EC6C6DFB5300AEE8D836 /* SwiftSupport.swift */; };
-		AEFEBE08CDE1AEC142D5C23201B6E02C /* Pods-ColorAdjuster_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90226A502FDC403039D6BC01AFDA3D8A /* Pods-ColorAdjuster_Tests-dummy.m */; };
-		C266791172C792AA93D8454544CB2236 /* ColorAdjuster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 300347460E6BF90E72901EFC7E0C3D15 /* ColorAdjuster-dummy.m */; };
-		CE820AA7E72A4846CAEB766CCECBCD19 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BAA80B1BC33F2C76E04787BD9E260D /* UIImage+Diff.m */; };
-		CF129D86005FF37F6657E47876C5FF4B /* Pods-ColorAdjuster_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F63B004C29F1DAA5AABE6E8560AC5089 /* Pods-ColorAdjuster_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E31B1CA8B6954B3633953CF41463529A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 240B78F3F7298C58647B92B90B667B1E /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3F6A8F7F5D32FE5B509B57F6CDF6447 /* ColorAdjuster.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF14278AE57225515B659ACE88ACF9A /* ColorAdjuster.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6C3A4C8F316CF1CA88ED0913778FECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB12B0688AB4ADC7132B88729D632408 /* Foundation.framework */; };
-		E7108AA5FD4EF2DF2B09FEAF6AC36E58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279B8F7AFA697444669749DB58EF075B /* UIKit.framework */; };
-		FBDAF4F5B1C1DD3544C58D3382A70B69 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC30500C7CD0FC0C1F4CA1C273D8C6F /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1426379686C445C74F6290E01E7C48C3 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ABE53DF2B31909B5B617FAB65B236 /* SwiftSupport.swift */; };
+		22E53AC87239F994379E74A9C8736365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A7E81E94D5275573AF19B08C7093C /* Foundation.framework */; };
+		26083AD7F5846C641E6151D5F56C734B /* ColorAdjuster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F52248208C9E93E60DDE63319DA8C11 /* ColorAdjuster-dummy.m */; };
+		30369AD6166CCFB4CC937468EE3B97EC /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6248896E1BB34642D588CC962FAAFB9A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35F6B73D8CDA5133392977DD407C33B7 /* ColorAdjuster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E03ADCFC33736AB93819CAE450DCE28 /* ColorAdjuster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A87A4045E31FF4DFABF21527851F9F2 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C92FC0B484DCA9645C5B0602B955223D /* FBSnapshotTestCasePlatform.m */; };
+		4C3E36C5258BBC8A0A7D4B1AAD10B01D /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39421CCFC760E6F6134A970742961D /* FBSnapshotTestCase-dummy.m */; };
+		4F53012E79C4986CF70C21717678B599 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3108BADC9FA9338E148362791FE7BA /* UIImage+Snapshot.m */; };
+		4F84D0AE467D50351DBACB237B36EF8D /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9806692559F5AFD03D43D19E4518AD /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B81EC3DA0D0C69D01AD89847DEAC4C /* ColorAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD791B8609A8EBB7B67338759F1EA9 /* ColorAdjuster.swift */; };
+		5D8ED3EAE4BB22314E006BFE3009D412 /* Pods-ColorAdjuster_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69515D2BB762F52443DBD7A7E17FF572 /* Pods-ColorAdjuster_Tests-dummy.m */; };
+		68DDFD0CC08C1494ABAC29BE021BBD2E /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C409D11987BA4467CC937C75332FFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D24D5A2CE25A5D1956D7D317DBA7765 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 031821031415F3DF9F2C65E71C9446E5 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C5320E92F1FB7480E66A8D1D3D4941 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 961538201684B41F2D8E008CB622C7F1 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7434A24E13F9EB9F45B88E123FA80EE2 /* Pods-ColorAdjuster_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED48350AD2D1460992E8BA0FAF907CB /* Pods-ColorAdjuster_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81850ABEE9BC55B37B4B20B5A5DD14D1 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD616B2231E3F8849242A08BD134C42 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B5C2CF24313E2E86220ECEDFB492E2B /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D54FACDBD13FE0790ADED9975217AF /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A13E27F5FFC6B5C5CD7EAB01E1F280FA /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC43B268753FFDBB71BD2DFCD3B3D00 /* UIImage+Compare.m */; };
+		A54E73B86A42C3229B743961C21B300B /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1527765E3D0648C23ADECABEAD2BC7E /* FBSnapshotTestController.m */; };
+		B4A3E59B8276BB85D3DC41076C212900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A7E81E94D5275573AF19B08C7093C /* Foundation.framework */; };
+		BD2698A02AB7B7397761EAAB5B96E8E2 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277D271D69932B1FD3C57A4FE001AF8 /* FBSnapshotTestCase.m */; };
+		C10EBF9583AE336A20CE1C63C75352F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19621A55D90116B728D6C61C1B25EB8 /* XCTest.framework */; };
+		D2309329BDFCBE5D054B6E3D05B581DC /* ColorAdjuster.h in Headers */ = {isa = PBXBuildFile; fileRef = B464CD948F5B73D0C543FACC592FB245 /* ColorAdjuster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCAC66C63A4ED185B90BBB2E339190EB /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 18756CDA1AF79E7E2EDAB6BAC20CF81C /* UIImage+Diff.m */; };
+		E4B06C34078A8820869697BA40A348A9 /* Pods-ColorAdjuster_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD3A922E63189C7863BDEF0302EDC0 /* Pods-ColorAdjuster_Example-dummy.m */; };
+		EE07AD7F999A3ECC98DB792AD3393C80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A7E81E94D5275573AF19B08C7093C /* Foundation.framework */; };
+		F1916786585300FD236551730A10E315 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622164B4107630D654F8782C72483711 /* UIKit.framework */; };
+		F8838C0126C438AA37424C6F5E1E9D93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A7E81E94D5275573AF19B08C7093C /* Foundation.framework */; };
+		FB2DF1F8131C35BE53A4AD01414D1B37 /* Pods-ColorAdjuster_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C1E5EFFC5097C69FF85BA5CA6D6E7FA /* Pods-ColorAdjuster_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F4A879359DA60DA546E49AE9B394A52 /* PBXContainerItemProxy */ = {
+		6B96CBD567C37B05C8147266E0EBAD7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B707284F983C771F05C480E16F289C1;
+			remoteGlobalIDString = 0352DBF94D1EE056CD76DFFFAABE2253;
 			remoteInfo = ColorAdjuster;
 		};
-		85B535BB34BB54AD036D027099FEFD75 /* PBXContainerItemProxy */ = {
+		C1B208A2AF2B78F0E849A07632912876 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B707284F983C771F05C480E16F289C1;
+			remoteGlobalIDString = 0352DBF94D1EE056CD76DFFFAABE2253;
 			remoteInfo = ColorAdjuster;
 		};
-		BCA59C4082D213DE1CBF84A6F0A3E0A3 /* PBXContainerItemProxy */ = {
+		FC807BC06AB423EF2808F96F0FF54962 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 30E9B1BA1A63D136ACC78C446FF5BF5E;
+			remoteGlobalIDString = BEE39AAA91475E2B4CB83A55607CD962;
 			remoteInfo = FBSnapshotTestCase;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A81320F2C4C2937B466752459615CD /* ColorAdjuster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorAdjuster.swift; sourceTree = "<group>"; };
-		02BA6F208EB42AB09B5FAC45097FF28D /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		09E3CB5D1D49C7DAEEA79514739B21F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		11AED7F427FB6914EFB192755927A247 /* ColorAdjuster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorAdjuster-prefix.pch"; sourceTree = "<group>"; };
-		11B2B92425EC83757295DFD7090C94B2 /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		0277D271D69932B1FD3C57A4FE001AF8 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		031821031415F3DF9F2C65E71C9446E5 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		053FFF6658E4E1E525CF1A4DFBC5DF05 /* ColorAdjuster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorAdjuster-prefix.pch"; sourceTree = "<group>"; };
+		0C1E5EFFC5097C69FF85BA5CA6D6E7FA /* Pods-ColorAdjuster_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorAdjuster_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0F52248208C9E93E60DDE63319DA8C11 /* ColorAdjuster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorAdjuster-dummy.m"; sourceTree = "<group>"; };
 		16C476BF51F049116E422F8B03CD7DF9 /* Pods-ColorAdjuster_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorAdjuster_Example-frameworks.sh"; sourceTree = "<group>"; };
 		182868994C7D04469EEF20896F043CE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18756CDA1AF79E7E2EDAB6BAC20CF81C /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		18D54FACDBD13FE0790ADED9975217AF /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		1A6C90C98319D4EC4BAB3999AD6474FC /* Pods-ColorAdjuster_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorAdjuster_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		240B78F3F7298C58647B92B90B667B1E /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		279B8F7AFA697444669749DB58EF075B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1C690694ED31E5F3C12569B6CD00903A /* Pods_ColorAdjuster_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorAdjuster_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD616B2231E3F8849242A08BD134C42 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		27D95AF2A8381AF7033FC1777F20EFD6 /* Pods-ColorAdjuster_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorAdjuster_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		300347460E6BF90E72901EFC7E0C3D15 /* ColorAdjuster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorAdjuster-dummy.m"; sourceTree = "<group>"; };
-		38EFB5BE369F4A36C18CA56CC1C5B6D1 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		3AD888EC732B0188637F2359BA0DA6C0 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		426B0D6C28C6987D1FFCE7CCEAB94574 /* ColorAdjuster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ColorAdjuster.modulemap; sourceTree = "<group>"; };
-		49BD3F89ACD3341F9CD0129DE17202BB /* Pods-ColorAdjuster_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorAdjuster_Example-umbrella.h"; sourceTree = "<group>"; };
-		4BD2D026071D7FD2BE689CCD1D3B9EF6 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		4D2E6BCC2ABAABAFA6A93350A3A4EBED /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		29C409D11987BA4467CC937C75332FFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		30D3EF8152B8A75A77CB2D084CE7A791 /* Pods-ColorAdjuster_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAdjuster_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E9806692559F5AFD03D43D19E4518AD /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		407E2FE7C60C551ECAB286511EFC1F49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E03ADCFC33736AB93819CAE450DCE28 /* ColorAdjuster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorAdjuster-umbrella.h"; sourceTree = "<group>"; };
+		4ECAA8EF5CA8266764EA8CCE6981A325 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		50107B12536784B7CEFC669233B85B9A /* Pods-ColorAdjuster_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ColorAdjuster_Tests.modulemap"; sourceTree = "<group>"; };
-		56F9774D8A56BEF313DD3F1D1C9647B4 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		6406BFED77745CE6B5EB33198CCB7217 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		6E780D01D3DC2EFC358B53747117F059 /* Pods-ColorAdjuster_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAdjuster_Example.release.xcconfig"; sourceTree = "<group>"; };
-		72BCD6956990509E124F19AC49A581B2 /* Pods_ColorAdjuster_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorAdjuster_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		734A9CEEA305325E1BCB9BF858D779F7 /* Pods-ColorAdjuster_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAdjuster_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7449D77F50F0116BB1CC151A72FACFA3 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		622164B4107630D654F8782C72483711 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6248896E1BB34642D588CC962FAAFB9A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		6709484EA31194400A22047A41614F32 /* Pods-ColorAdjuster_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAdjuster_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		69515D2BB762F52443DBD7A7E17FF572 /* Pods-ColorAdjuster_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorAdjuster_Tests-dummy.m"; sourceTree = "<group>"; };
+		6ED48350AD2D1460992E8BA0FAF907CB /* Pods-ColorAdjuster_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorAdjuster_Example-umbrella.h"; sourceTree = "<group>"; };
 		78DC514E9213471295DA9C14F58FA5E1 /* Pods-ColorAdjuster_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorAdjuster_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7DC30500C7CD0FC0C1F4CA1C273D8C6F /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		85B09F79117790AF31C4F565EBBB9E0A /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		85BAA80B1BC33F2C76E04787BD9E260D /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		886FC84EC534EC6C6DFB5300AEE8D836 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		90226A502FDC403039D6BC01AFDA3D8A /* Pods-ColorAdjuster_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorAdjuster_Tests-dummy.m"; sourceTree = "<group>"; };
-		9AF14278AE57225515B659ACE88ACF9A /* ColorAdjuster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ColorAdjuster.h; sourceTree = "<group>"; };
-		9F1EEABE350625A1F62C2CF2E92A0C7D /* ColorAdjuster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorAdjuster-umbrella.h"; sourceTree = "<group>"; };
+		7CAD3A922E63189C7863BDEF0302EDC0 /* Pods-ColorAdjuster_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorAdjuster_Example-dummy.m"; sourceTree = "<group>"; };
+		7E2AAED2366ACC2486EC7AED8C73D3F1 /* ColorAdjuster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ColorAdjuster.modulemap; sourceTree = "<group>"; };
+		838CE170955C88037E844E7AD2268A76 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		8607151B17C738D610ECEACA4B589F26 /* Pods-ColorAdjuster_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAdjuster_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8C39421CCFC760E6F6134A970742961D /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		8D3108BADC9FA9338E148362791FE7BA /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		8EB627D399EA1935389084FFF4CD0BC4 /* ColorAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		901B570DAAB7790BD0E8D016C5D22EDB /* Pods-ColorAdjuster_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAdjuster_Example.release.xcconfig"; sourceTree = "<group>"; };
+		961538201684B41F2D8E008CB622C7F1 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		A09A7E81E94D5275573AF19B08C7093C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A1527765E3D0648C23ADECABEAD2BC7E /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		A173CFCF1A82D93127B9BE3ABD405D97 /* Pods-ColorAdjuster_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorAdjuster_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A48AFAE54A63F3C0079D07FF3DA2DA1C /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		A1C4AB79C69F78B3E42865886E1882AB /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		AB0F47F747025FA14CC1CD85C40732FE /* Pods-ColorAdjuster_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ColorAdjuster_Example.modulemap"; sourceTree = "<group>"; };
-		ABBFB30F05A4EB2FE4F22CB71B966513 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD89159E51D91D47641E22925D1A2346 /* Pods-ColorAdjuster_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAdjuster_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AFC43B268753FFDBB71BD2DFCD3B3D00 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		B464CD948F5B73D0C543FACC592FB245 /* ColorAdjuster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ColorAdjuster.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE1E1C7949E956D50E368A2481849DCA /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		BCA231AB719BCB1AD13E0A628A2A4818 /* Pods_ColorAdjuster_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorAdjuster_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EF9AE5D6FCCF9AAB4DAAC203B7CC61 /* Pods-ColorAdjuster_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorAdjuster_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C277FB5EE2253761CBD58ECEC237C113 /* ColorAdjuster-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ColorAdjuster-Private.xcconfig"; sourceTree = "<group>"; };
-		C3B3B590FF3671F2DDB42A6377D49F47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C48B52E6FD0C0ED767CAEC4F2EBDD88B /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		C4D77ECE9DFDFF22B1304BC0480FB3A1 /* Pods-ColorAdjuster_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAdjuster_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C543DAD05D8FA869FD569938102AF375 /* Pods-ColorAdjuster_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorAdjuster_Example-resources.sh"; sourceTree = "<group>"; };
-		C96393AA9BE0EBDD15EA3D073DD3A2B0 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		CD7801B30ABE18DB624C0A3DCC3008C6 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92FC0B484DCA9645C5B0602B955223D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		D22C89AA529E52519FD5F7BCBF55CB66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0ABE53DF2B31909B5B617FAB65B236 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		DEF08036C0D20DC1C231A2D564DD7872 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E330FAAF27F3F6A632EB5A696496C2E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5A1B81CAF52CEE4191601CE053FDE62 /* Pods_ColorAdjuster_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorAdjuster_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6AEF9CC1794C216962A1A9DE2B1B8BF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		EACD40B0AD14B41A4797C9EAA5510BEF /* Pods-ColorAdjuster_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorAdjuster_Example-dummy.m"; sourceTree = "<group>"; };
-		EB12B0688AB4ADC7132B88729D632408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EF418526D87084C74A43769BCF94EB72 /* ColorAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1194F28D6549215EC48776FED832C65 /* ColorAdjuster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorAdjuster.xcconfig; sourceTree = "<group>"; };
+		F19621A55D90116B728D6C61C1B25EB8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F5ED84C3F8D806E26ABAF60D48D5CCC5 /* Pods-ColorAdjuster_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorAdjuster_Tests-resources.sh"; sourceTree = "<group>"; };
-		F63B004C29F1DAA5AABE6E8560AC5089 /* Pods-ColorAdjuster_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorAdjuster_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FC5CB375F4F550B16F35E18DCC9C5068 /* ColorAdjuster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorAdjuster.xcconfig; sourceTree = "<group>"; };
+		FFFD791B8609A8EBB7B67338759F1EA9 /* ColorAdjuster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorAdjuster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		610EA2540F00DB7C9CF18ABD2D651344 /* Frameworks */ = {
+		4813B08A2C15A5F0CEAE60D95024E1EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43493CB31AD02F8B40A36B115935A2F4 /* Foundation.framework in Frameworks */,
+				F8838C0126C438AA37424C6F5E1E9D93 /* Foundation.framework in Frameworks */,
+				C10EBF9583AE336A20CE1C63C75352F0 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65288B2D6429415F7A0329BCD3276196 /* Frameworks */ = {
+		7100166FB0C49E35E1E99639F5FAE862 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660067856940FAD72F4D907EEC8090F8 /* Foundation.framework in Frameworks */,
+				EE07AD7F999A3ECC98DB792AD3393C80 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCC765120605ABD7C2A1CE187A464FFD /* Frameworks */ = {
+		93189BC8C593EC5DD6E05FD63CC433C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				073EDE42E36940BE8B549E7C2C92FF5B /* Foundation.framework in Frameworks */,
-				E7108AA5FD4EF2DF2B09FEAF6AC36E58 /* UIKit.framework in Frameworks */,
+				22E53AC87239F994379E74A9C8736365 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCB875B20180998669143693DC3F0596 /* Frameworks */ = {
+		A24CCF283CD62DB9446762860C170CC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6C3A4C8F316CF1CA88ED0913778FECD /* Foundation.framework in Frameworks */,
-				1E23B491C0FBE989C5D1E46BDCF17108 /* XCTest.framework in Frameworks */,
+				B4A3E59B8276BB85D3DC41076C212900 /* Foundation.framework in Frameworks */,
+				F1916786585300FD236551730A10E315 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,77 +165,67 @@
 				AB0F47F747025FA14CC1CD85C40732FE /* Pods-ColorAdjuster_Example.modulemap */,
 				27D95AF2A8381AF7033FC1777F20EFD6 /* Pods-ColorAdjuster_Example-acknowledgements.markdown */,
 				A173CFCF1A82D93127B9BE3ABD405D97 /* Pods-ColorAdjuster_Example-acknowledgements.plist */,
-				EACD40B0AD14B41A4797C9EAA5510BEF /* Pods-ColorAdjuster_Example-dummy.m */,
+				7CAD3A922E63189C7863BDEF0302EDC0 /* Pods-ColorAdjuster_Example-dummy.m */,
 				16C476BF51F049116E422F8B03CD7DF9 /* Pods-ColorAdjuster_Example-frameworks.sh */,
 				C543DAD05D8FA869FD569938102AF375 /* Pods-ColorAdjuster_Example-resources.sh */,
-				49BD3F89ACD3341F9CD0129DE17202BB /* Pods-ColorAdjuster_Example-umbrella.h */,
-				734A9CEEA305325E1BCB9BF858D779F7 /* Pods-ColorAdjuster_Example.debug.xcconfig */,
-				6E780D01D3DC2EFC358B53747117F059 /* Pods-ColorAdjuster_Example.release.xcconfig */,
+				6ED48350AD2D1460992E8BA0FAF907CB /* Pods-ColorAdjuster_Example-umbrella.h */,
+				8607151B17C738D610ECEACA4B589F26 /* Pods-ColorAdjuster_Example.debug.xcconfig */,
+				901B570DAAB7790BD0E8D016C5D22EDB /* Pods-ColorAdjuster_Example.release.xcconfig */,
 			);
 			name = "Pods-ColorAdjuster_Example";
 			path = "Target Support Files/Pods-ColorAdjuster_Example";
 			sourceTree = "<group>";
 		};
+		03490D436841F352F14130919887E48E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EB627D399EA1935389084FFF4CD0BC4 /* ColorAdjuster.framework */,
+				DEF08036C0D20DC1C231A2D564DD7872 /* FBSnapshotTestCase.framework */,
+				1C690694ED31E5F3C12569B6CD00903A /* Pods_ColorAdjuster_Example.framework */,
+				BCA231AB719BCB1AD13E0A628A2A4818 /* Pods_ColorAdjuster_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B8137962D5109D5F3D982079CF3F646 /* iOS */,
+				DECD63C15EA4A6A5E09172088586BA30 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		292AA645F0ABA914A4FE3B079D253D73 /* Support Files */ = {
+		20958FC93B60669C43DC0DBE2D0DFA19 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				426B0D6C28C6987D1FFCE7CCEAB94574 /* ColorAdjuster.modulemap */,
-				FC5CB375F4F550B16F35E18DCC9C5068 /* ColorAdjuster.xcconfig */,
-				C277FB5EE2253761CBD58ECEC237C113 /* ColorAdjuster-Private.xcconfig */,
-				300347460E6BF90E72901EFC7E0C3D15 /* ColorAdjuster-dummy.m */,
-				11AED7F427FB6914EFB192755927A247 /* ColorAdjuster-prefix.pch */,
-				9F1EEABE350625A1F62C2CF2E92A0C7D /* ColorAdjuster-umbrella.h */,
-				C3B3B590FF3671F2DDB42A6377D49F47 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ColorAdjuster";
-			sourceTree = "<group>";
-		};
-		3B8137962D5109D5F3D982079CF3F646 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EB12B0688AB4ADC7132B88729D632408 /* Foundation.framework */,
-				279B8F7AFA697444669749DB58EF075B /* UIKit.framework */,
-				09E3CB5D1D49C7DAEEA79514739B21F8 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		52AE899D8B5E82245C5406997506EDFD /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				78B8B06429C9DADE35340BE6C4B7C020 /* Core */,
-				ECB35126A6E5AC04DA6E5CFD5988508A /* Support Files */,
-				C0D3A88223D43E2EE28E545D73C4CC1C /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		78B8B06429C9DADE35340BE6C4B7C020 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				7449D77F50F0116BB1CC151A72FACFA3 /* FBSnapshotTestCase.h */,
-				6406BFED77745CE6B5EB33198CCB7217 /* FBSnapshotTestCase.m */,
-				38EFB5BE369F4A36C18CA56CC1C5B6D1 /* FBSnapshotTestCasePlatform.h */,
-				85B09F79117790AF31C4F565EBBB9E0A /* FBSnapshotTestCasePlatform.m */,
-				240B78F3F7298C58647B92B90B667B1E /* FBSnapshotTestController.h */,
-				02BA6F208EB42AB09B5FAC45097FF28D /* FBSnapshotTestController.m */,
-				4D2E6BCC2ABAABAFA6A93350A3A4EBED /* UIImage+Compare.h */,
-				C96393AA9BE0EBDD15EA3D073DD3A2B0 /* UIImage+Compare.m */,
-				7DC30500C7CD0FC0C1F4CA1C273D8C6F /* UIImage+Diff.h */,
-				85BAA80B1BC33F2C76E04787BD9E260D /* UIImage+Diff.m */,
-				BE1E1C7949E956D50E368A2481849DCA /* UIImage+Snapshot.h */,
-				3AD888EC732B0188637F2359BA0DA6C0 /* UIImage+Snapshot.m */,
+				18D54FACDBD13FE0790ADED9975217AF /* FBSnapshotTestCase.h */,
+				0277D271D69932B1FD3C57A4FE001AF8 /* FBSnapshotTestCase.m */,
+				3E9806692559F5AFD03D43D19E4518AD /* FBSnapshotTestCasePlatform.h */,
+				C92FC0B484DCA9645C5B0602B955223D /* FBSnapshotTestCasePlatform.m */,
+				961538201684B41F2D8E008CB622C7F1 /* FBSnapshotTestController.h */,
+				A1527765E3D0648C23ADECABEAD2BC7E /* FBSnapshotTestController.m */,
+				1CD616B2231E3F8849242A08BD134C42 /* UIImage+Compare.h */,
+				AFC43B268753FFDBB71BD2DFCD3B3D00 /* UIImage+Compare.m */,
+				29C409D11987BA4467CC937C75332FFF /* UIImage+Diff.h */,
+				18756CDA1AF79E7E2EDAB6BAC20CF81C /* UIImage+Diff.m */,
+				031821031415F3DF9F2C65E71C9446E5 /* UIImage+Snapshot.h */,
+				8D3108BADC9FA9338E148362791FE7BA /* UIImage+Snapshot.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		4186F1540713AEA2D97896F4BB061AEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4AB79C69F78B3E42865886E1882AB /* FBSnapshotTestCase.modulemap */,
+				4ECAA8EF5CA8266764EA8CCE6981A325 /* FBSnapshotTestCase.xcconfig */,
+				8C39421CCFC760E6F6134A970742961D /* FBSnapshotTestCase-dummy.m */,
+				838CE170955C88037E844E7AD2268A76 /* FBSnapshotTestCase-prefix.pch */,
+				6248896E1BB34642D588CC962FAAFB9A /* FBSnapshotTestCase-umbrella.h */,
+				407E2FE7C60C551ECAB286511EFC1F49 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -247,9 +235,19 @@
 				DF5AD8470A4E0435106C865BC063913A /* Development Pods */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				03490D436841F352F14130919887E48E /* Products */,
 				D9BCC96E3583A19D659828156FCBD5CE /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		876B6FCF772A03159C523E09F1CF0815 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				20958FC93B60669C43DC0DBE2D0DFA19 /* Core */,
+				4186F1540713AEA2D97896F4BB061AEC /* Support Files */,
+				F82F93DCEA6DE7CD521E0DA9850C3010 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
 		B73CA222D6609BA480BA5836757568E9 /* Pods-ColorAdjuster_Tests */ = {
@@ -259,44 +257,34 @@
 				50107B12536784B7CEFC669233B85B9A /* Pods-ColorAdjuster_Tests.modulemap */,
 				1A6C90C98319D4EC4BAB3999AD6474FC /* Pods-ColorAdjuster_Tests-acknowledgements.markdown */,
 				C1EF9AE5D6FCCF9AAB4DAAC203B7CC61 /* Pods-ColorAdjuster_Tests-acknowledgements.plist */,
-				90226A502FDC403039D6BC01AFDA3D8A /* Pods-ColorAdjuster_Tests-dummy.m */,
+				69515D2BB762F52443DBD7A7E17FF572 /* Pods-ColorAdjuster_Tests-dummy.m */,
 				78DC514E9213471295DA9C14F58FA5E1 /* Pods-ColorAdjuster_Tests-frameworks.sh */,
 				F5ED84C3F8D806E26ABAF60D48D5CCC5 /* Pods-ColorAdjuster_Tests-resources.sh */,
-				F63B004C29F1DAA5AABE6E8560AC5089 /* Pods-ColorAdjuster_Tests-umbrella.h */,
-				C4D77ECE9DFDFF22B1304BC0480FB3A1 /* Pods-ColorAdjuster_Tests.debug.xcconfig */,
-				AD89159E51D91D47641E22925D1A2346 /* Pods-ColorAdjuster_Tests.release.xcconfig */,
+				0C1E5EFFC5097C69FF85BA5CA6D6E7FA /* Pods-ColorAdjuster_Tests-umbrella.h */,
+				30D3EF8152B8A75A77CB2D084CE7A791 /* Pods-ColorAdjuster_Tests.debug.xcconfig */,
+				6709484EA31194400A22047A41614F32 /* Pods-ColorAdjuster_Tests.release.xcconfig */,
 			);
 			name = "Pods-ColorAdjuster_Tests";
 			path = "Target Support Files/Pods-ColorAdjuster_Tests";
 			sourceTree = "<group>";
 		};
-		C0D3A88223D43E2EE28E545D73C4CC1C /* SwiftSupport */ = {
+		C47CE162D4C987F1DDBC5913E9A8B6E5 /* ColorAdjuster */ = {
 			isa = PBXGroup;
 			children = (
-				886FC84EC534EC6C6DFB5300AEE8D836 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		C6F6A968E2A27C5FBF1C077C48478777 /* ColorAdjuster */ = {
-			isa = PBXGroup;
-			children = (
-				F16DAD4EE90AF0B725AE7BCE76BE79D4 /* ColorAdjuster */,
-				292AA645F0ABA914A4FE3B079D253D73 /* Support Files */,
+				CC5AF4052F00C59C251394310A5426AE /* ColorAdjuster */,
+				F324808157EAFFC8675E334E1CCC8B44 /* Support Files */,
 			);
 			name = ColorAdjuster;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+		CC5AF4052F00C59C251394310A5426AE /* ColorAdjuster */ = {
 			isa = PBXGroup;
 			children = (
-				EF418526D87084C74A43769BCF94EB72 /* ColorAdjuster.framework */,
-				CD7801B30ABE18DB624C0A3DCC3008C6 /* FBSnapshotTestCase.framework */,
-				72BCD6956990509E124F19AC49A581B2 /* Pods_ColorAdjuster_Example.framework */,
-				E5A1B81CAF52CEE4191601CE053FDE62 /* Pods_ColorAdjuster_Tests.framework */,
+				B464CD948F5B73D0C543FACC592FB245 /* ColorAdjuster.h */,
+				FFFD791B8609A8EBB7B67338759F1EA9 /* ColorAdjuster.swift */,
 			);
-			name = Products;
+			path = ColorAdjuster;
 			sourceTree = "<group>";
 		};
 		D9BCC96E3583A19D659828156FCBD5CE /* Targets Support Files */ = {
@@ -308,42 +296,50 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		DECD63C15EA4A6A5E09172088586BA30 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A09A7E81E94D5275573AF19B08C7093C /* Foundation.framework */,
+				622164B4107630D654F8782C72483711 /* UIKit.framework */,
+				F19621A55D90116B728D6C61C1B25EB8 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		DF5AD8470A4E0435106C865BC063913A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C6F6A968E2A27C5FBF1C077C48478777 /* ColorAdjuster */,
+				C47CE162D4C987F1DDBC5913E9A8B6E5 /* ColorAdjuster */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		ECB35126A6E5AC04DA6E5CFD5988508A /* Support Files */ = {
+		F324808157EAFFC8675E334E1CCC8B44 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4BD2D026071D7FD2BE689CCD1D3B9EF6 /* FBSnapshotTestCase.modulemap */,
-				E6AEF9CC1794C216962A1A9DE2B1B8BF /* FBSnapshotTestCase.xcconfig */,
-				11B2B92425EC83757295DFD7090C94B2 /* FBSnapshotTestCase-Private.xcconfig */,
-				56F9774D8A56BEF313DD3F1D1C9647B4 /* FBSnapshotTestCase-dummy.m */,
-				A48AFAE54A63F3C0079D07FF3DA2DA1C /* FBSnapshotTestCase-prefix.pch */,
-				C48B52E6FD0C0ED767CAEC4F2EBDD88B /* FBSnapshotTestCase-umbrella.h */,
-				ABBFB30F05A4EB2FE4F22CB71B966513 /* Info.plist */,
+				7E2AAED2366ACC2486EC7AED8C73D3F1 /* ColorAdjuster.modulemap */,
+				F1194F28D6549215EC48776FED832C65 /* ColorAdjuster.xcconfig */,
+				0F52248208C9E93E60DDE63319DA8C11 /* ColorAdjuster-dummy.m */,
+				053FFF6658E4E1E525CF1A4DFBC5DF05 /* ColorAdjuster-prefix.pch */,
+				4E03ADCFC33736AB93819CAE450DCE28 /* ColorAdjuster-umbrella.h */,
+				D22C89AA529E52519FD5F7BCBF55CB66 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			path = "Example/Pods/Target Support Files/ColorAdjuster";
 			sourceTree = "<group>";
 		};
-		F16DAD4EE90AF0B725AE7BCE76BE79D4 /* ColorAdjuster */ = {
+		F82F93DCEA6DE7CD521E0DA9850C3010 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				9AF14278AE57225515B659ACE88ACF9A /* ColorAdjuster.h */,
-				01A81320F2C4C2937B466752459615CD /* ColorAdjuster.swift */,
+				DA0ABE53DF2B31909B5B617FAB65B236 /* SwiftSupport.swift */,
 			);
-			path = ColorAdjuster;
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				52AE899D8B5E82245C5406997506EDFD /* FBSnapshotTestCase */,
+				876B6FCF772A03159C523E09F1CF0815 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -351,72 +347,55 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		43FB1043E14DE960FD5BEB1EE2E4A78D /* Headers */ = {
+		14048A99762E7FA2A5558C2B04EA4298 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E183FC402E9C29E21069C41189268F7 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				4C9CF768C003341A9A1C71DF84645EF1 /* FBSnapshotTestCase.h in Headers */,
-				7CA4937D28AF80852B9808434B8CFDB6 /* FBSnapshotTestCasePlatform.h in Headers */,
-				E31B1CA8B6954B3633953CF41463529A /* FBSnapshotTestController.h in Headers */,
-				0D4B04D66D516B58D769EB0B202A4E0F /* UIImage+Compare.h in Headers */,
-				FBDAF4F5B1C1DD3544C58D3382A70B69 /* UIImage+Diff.h in Headers */,
-				4361B7B67E723473A970AECEFEF2826B /* UIImage+Snapshot.h in Headers */,
+				FB2DF1F8131C35BE53A4AD01414D1B37 /* Pods-ColorAdjuster_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		758635C4FD31416B7B4A43686014AB8D /* Headers */ = {
+		3052FBC7F7A3CD879CC64CCFF8CE8030 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F90BB2260D66DB700A140BB86E5F968 /* ColorAdjuster-umbrella.h in Headers */,
-				E3F6A8F7F5D32FE5B509B57F6CDF6447 /* ColorAdjuster.h in Headers */,
+				30369AD6166CCFB4CC937468EE3B97EC /* FBSnapshotTestCase-umbrella.h in Headers */,
+				8B5C2CF24313E2E86220ECEDFB492E2B /* FBSnapshotTestCase.h in Headers */,
+				4F84D0AE467D50351DBACB237B36EF8D /* FBSnapshotTestCasePlatform.h in Headers */,
+				70C5320E92F1FB7480E66A8D1D3D4941 /* FBSnapshotTestController.h in Headers */,
+				81850ABEE9BC55B37B4B20B5A5DD14D1 /* UIImage+Compare.h in Headers */,
+				68DDFD0CC08C1494ABAC29BE021BBD2E /* UIImage+Diff.h in Headers */,
+				6D24D5A2CE25A5D1956D7D317DBA7765 /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90F393419BEE28F90E141CA2419F3BD2 /* Headers */ = {
+		510BE142184BD93EE6CC743861A5FDAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17DFF733CF34F96A83C1BCD8C54D68FF /* Pods-ColorAdjuster_Example-umbrella.h in Headers */,
+				35F6B73D8CDA5133392977DD407C33B7 /* ColorAdjuster-umbrella.h in Headers */,
+				D2309329BDFCBE5D054B6E3D05B581DC /* ColorAdjuster.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAE4C8929BC0E0DA58506DD073C4C88F /* Headers */ = {
+		DDEB89E3CCAB59C2D97B20592E57781E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF129D86005FF37F6657E47876C5FF4B /* Pods-ColorAdjuster_Tests-umbrella.h in Headers */,
+				7434A24E13F9EB9F45B88E123FA80EE2 /* Pods-ColorAdjuster_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		30E9B1BA1A63D136ACC78C446FF5BF5E /* FBSnapshotTestCase */ = {
+		0352DBF94D1EE056CD76DFFFAABE2253 /* ColorAdjuster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1B61DF47640136F041CB766D9C96C90 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = 9C4F04D8E5FAEAE078476FAB44D590FE /* Build configuration list for PBXNativeTarget "ColorAdjuster" */;
 			buildPhases = (
-				DCB687654EC4C00F54EE017C0ED111BB /* Sources */,
-				DCB875B20180998669143693DC3F0596 /* Frameworks */,
-				43FB1043E14DE960FD5BEB1EE2E4A78D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = CD7801B30ABE18DB624C0A3DCC3008C6 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3B707284F983C771F05C480E16F289C1 /* ColorAdjuster */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A567B73A4E8A6CC72A644561A2138EB8 /* Build configuration list for PBXNativeTarget "ColorAdjuster" */;
-			buildPhases = (
-				816B668689D7801F022E0E63FB6C8601 /* Sources */,
-				CCC765120605ABD7C2A1CE187A464FFD /* Frameworks */,
-				758635C4FD31416B7B4A43686014AB8D /* Headers */,
+				A77F91F770896CF15EE9E5A1EB20A827 /* Sources */,
+				A24CCF283CD62DB9446762860C170CC5 /* Frameworks */,
+				510BE142184BD93EE6CC743861A5FDAF /* Headers */,
 			);
 			buildRules = (
 			);
@@ -424,44 +403,61 @@
 			);
 			name = ColorAdjuster;
 			productName = ColorAdjuster;
-			productReference = EF418526D87084C74A43769BCF94EB72 /* ColorAdjuster.framework */;
+			productReference = 8EB627D399EA1935389084FFF4CD0BC4 /* ColorAdjuster.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D0E88E6C579CE3830CAA4975F8ECC470 /* Pods-ColorAdjuster_Tests */ = {
+		BEE39AAA91475E2B4CB83A55607CD962 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8326A91B4BEBC1A5FDEDDC2744A9A869 /* Build configuration list for PBXNativeTarget "Pods-ColorAdjuster_Tests" */;
+			buildConfigurationList = 8190FFF05349441FAF37B8A1BBEEBE18 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
 			buildPhases = (
-				DF6143FC2C2BA1FFC759895C57BCF826 /* Sources */,
-				65288B2D6429415F7A0329BCD3276196 /* Frameworks */,
-				EAE4C8929BC0E0DA58506DD073C4C88F /* Headers */,
+				861C0807D59E2D675BB8393D5185A7AA /* Sources */,
+				4813B08A2C15A5F0CEAE60D95024E1EC /* Frameworks */,
+				3052FBC7F7A3CD879CC64CCFF8CE8030 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5C9FA77D5A72CE0300703E5A2F0FB96F /* PBXTargetDependency */,
-				E335B80288FEE514F1696E0EF1B281B9 /* PBXTargetDependency */,
 			);
-			name = "Pods-ColorAdjuster_Tests";
-			productName = "Pods-ColorAdjuster_Tests";
-			productReference = E5A1B81CAF52CEE4191601CE053FDE62 /* Pods_ColorAdjuster_Tests.framework */;
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = DEF08036C0D20DC1C231A2D564DD7872 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DB0F2143EFC4B76E02B43D7C43E7DA17 /* Pods-ColorAdjuster_Example */ = {
+		E03FBB21B2C5D71A923C7BE6EA89C1F8 /* Pods-ColorAdjuster_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B6BCCF9BE459ED155ABB66126A72FA0 /* Build configuration list for PBXNativeTarget "Pods-ColorAdjuster_Example" */;
+			buildConfigurationList = DE04D2F43C89D849F7A121EE42E1B4F3 /* Build configuration list for PBXNativeTarget "Pods-ColorAdjuster_Example" */;
 			buildPhases = (
-				B87AE51F3B17F919C2725D94BD637C24 /* Sources */,
-				610EA2540F00DB7C9CF18ABD2D651344 /* Frameworks */,
-				90F393419BEE28F90E141CA2419F3BD2 /* Headers */,
+				2E9E378F78B15EB66ABDFB64F29889FC /* Sources */,
+				93189BC8C593EC5DD6E05FD63CC433C9 /* Frameworks */,
+				DDEB89E3CCAB59C2D97B20592E57781E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				466F50E7D03D28C7B9CC54E0FEC4C863 /* PBXTargetDependency */,
+				22B6C4705D9CA19CB051D9A8AA0D214C /* PBXTargetDependency */,
 			);
 			name = "Pods-ColorAdjuster_Example";
 			productName = "Pods-ColorAdjuster_Example";
-			productReference = 72BCD6956990509E124F19AC49A581B2 /* Pods_ColorAdjuster_Example.framework */;
+			productReference = 1C690694ED31E5F3C12569B6CD00903A /* Pods_ColorAdjuster_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E35A615D34A56517D3BAD5E3C323CB59 /* Pods-ColorAdjuster_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B13D1F7B3EA8DABF6A10099F6EE409E /* Build configuration list for PBXNativeTarget "Pods-ColorAdjuster_Tests" */;
+			buildPhases = (
+				90A198DBD4455B8226CEC8F99D5DCD13 /* Sources */,
+				7100166FB0C49E35E1E99639F5FAE862 /* Frameworks */,
+				14048A99762E7FA2A5558C2B04EA4298 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA75C56B1B0B312DC096006117BC7661 /* PBXTargetDependency */,
+				E87BF192D499CE87249A482E2C210512 /* PBXTargetDependency */,
+			);
+			name = "Pods-ColorAdjuster_Tests";
+			productName = "Pods-ColorAdjuster_Tests";
+			productReference = BCA231AB719BCB1AD13E0A628A2A4818 /* Pods_ColorAdjuster_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -481,174 +477,86 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = 03490D436841F352F14130919887E48E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B707284F983C771F05C480E16F289C1 /* ColorAdjuster */,
-				30E9B1BA1A63D136ACC78C446FF5BF5E /* FBSnapshotTestCase */,
-				DB0F2143EFC4B76E02B43D7C43E7DA17 /* Pods-ColorAdjuster_Example */,
-				D0E88E6C579CE3830CAA4975F8ECC470 /* Pods-ColorAdjuster_Tests */,
+				0352DBF94D1EE056CD76DFFFAABE2253 /* ColorAdjuster */,
+				BEE39AAA91475E2B4CB83A55607CD962 /* FBSnapshotTestCase */,
+				E03FBB21B2C5D71A923C7BE6EA89C1F8 /* Pods-ColorAdjuster_Example */,
+				E35A615D34A56517D3BAD5E3C323CB59 /* Pods-ColorAdjuster_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		816B668689D7801F022E0E63FB6C8601 /* Sources */ = {
+		2E9E378F78B15EB66ABDFB64F29889FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C266791172C792AA93D8454544CB2236 /* ColorAdjuster-dummy.m in Sources */,
-				591605CECC488589A34DF6683F7A28A4 /* ColorAdjuster.swift in Sources */,
+				E4B06C34078A8820869697BA40A348A9 /* Pods-ColorAdjuster_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B87AE51F3B17F919C2725D94BD637C24 /* Sources */ = {
+		861C0807D59E2D675BB8393D5185A7AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98507E5A02C4DD494C925F46D39E9F40 /* Pods-ColorAdjuster_Example-dummy.m in Sources */,
+				4C3E36C5258BBC8A0A7D4B1AAD10B01D /* FBSnapshotTestCase-dummy.m in Sources */,
+				BD2698A02AB7B7397761EAAB5B96E8E2 /* FBSnapshotTestCase.m in Sources */,
+				4A87A4045E31FF4DFABF21527851F9F2 /* FBSnapshotTestCasePlatform.m in Sources */,
+				A54E73B86A42C3229B743961C21B300B /* FBSnapshotTestController.m in Sources */,
+				1426379686C445C74F6290E01E7C48C3 /* SwiftSupport.swift in Sources */,
+				A13E27F5FFC6B5C5CD7EAB01E1F280FA /* UIImage+Compare.m in Sources */,
+				DCAC66C63A4ED185B90BBB2E339190EB /* UIImage+Diff.m in Sources */,
+				4F53012E79C4986CF70C21717678B599 /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCB687654EC4C00F54EE017C0ED111BB /* Sources */ = {
+		90A198DBD4455B8226CEC8F99D5DCD13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E34AEA42751B53651B0679602586D57 /* FBSnapshotTestCase-dummy.m in Sources */,
-				7C2A2F745C27B730030C736632EE411E /* FBSnapshotTestCase.m in Sources */,
-				17C3E86F6AC8FD98C93C163FBC21C31C /* FBSnapshotTestCasePlatform.m in Sources */,
-				56B71A7D1BEB8F249E22C792C63C1018 /* FBSnapshotTestController.m in Sources */,
-				9DC1F35C0E2098FBE0401F7ECB518093 /* SwiftSupport.swift in Sources */,
-				29E40C45113D7DF51AC4AF8398778DE0 /* UIImage+Compare.m in Sources */,
-				CE820AA7E72A4846CAEB766CCECBCD19 /* UIImage+Diff.m in Sources */,
-				91427C37D8D0832D6928A918C55D18B1 /* UIImage+Snapshot.m in Sources */,
+				5D8ED3EAE4BB22314E006BFE3009D412 /* Pods-ColorAdjuster_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF6143FC2C2BA1FFC759895C57BCF826 /* Sources */ = {
+		A77F91F770896CF15EE9E5A1EB20A827 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFEBE08CDE1AEC142D5C23201B6E02C /* Pods-ColorAdjuster_Tests-dummy.m in Sources */,
+				26083AD7F5846C641E6151D5F56C734B /* ColorAdjuster-dummy.m in Sources */,
+				55B81EC3DA0D0C69D01AD89847DEAC4C /* ColorAdjuster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		466F50E7D03D28C7B9CC54E0FEC4C863 /* PBXTargetDependency */ = {
+		22B6C4705D9CA19CB051D9A8AA0D214C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ColorAdjuster;
-			target = 3B707284F983C771F05C480E16F289C1 /* ColorAdjuster */;
-			targetProxy = 85B535BB34BB54AD036D027099FEFD75 /* PBXContainerItemProxy */;
+			target = 0352DBF94D1EE056CD76DFFFAABE2253 /* ColorAdjuster */;
+			targetProxy = 6B96CBD567C37B05C8147266E0EBAD7F /* PBXContainerItemProxy */;
 		};
-		5C9FA77D5A72CE0300703E5A2F0FB96F /* PBXTargetDependency */ = {
+		DA75C56B1B0B312DC096006117BC7661 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ColorAdjuster;
-			target = 3B707284F983C771F05C480E16F289C1 /* ColorAdjuster */;
-			targetProxy = 4F4A879359DA60DA546E49AE9B394A52 /* PBXContainerItemProxy */;
+			target = 0352DBF94D1EE056CD76DFFFAABE2253 /* ColorAdjuster */;
+			targetProxy = C1B208A2AF2B78F0E849A07632912876 /* PBXContainerItemProxy */;
 		};
-		E335B80288FEE514F1696E0EF1B281B9 /* PBXTargetDependency */ = {
+		E87BF192D499CE87249A482E2C210512 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
-			target = 30E9B1BA1A63D136ACC78C446FF5BF5E /* FBSnapshotTestCase */;
-			targetProxy = BCA59C4082D213DE1CBF84A6F0A3E0A3 /* PBXContainerItemProxy */;
+			target = BEE39AAA91475E2B4CB83A55607CD962 /* FBSnapshotTestCase */;
+			targetProxy = FC807BC06AB423EF2808F96F0FF54962 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+		1AAD019A27E55DFB87734960002B9806 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		17997825E7CE3D78F3542654DDAB2A04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C277FB5EE2253761CBD58ECEC237C113 /* ColorAdjuster-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ColorAdjuster/ColorAdjuster-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ColorAdjuster/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ColorAdjuster/ColorAdjuster.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ColorAdjuster;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1BF8B16BF3A78FFC89BEA2D0CBF297ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11B2B92425EC83757295DFD7090C94B2 /* FBSnapshotTestCase-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.0.5;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1FAE15FF72C845C27FDE1446DF1D7568 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4D77ECE9DFDFF22B1304BC0480FB3A1 /* Pods-ColorAdjuster_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8607151B17C738D610ECEACA4B589F26 /* Pods-ColorAdjuster_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -657,16 +565,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ColorAdjuster_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorAdjuster_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ColorAdjuster_Tests/Pods-ColorAdjuster_Tests.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorAdjuster_Example/Pods-ColorAdjuster_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ColorAdjuster_Tests;
+				PRODUCT_NAME = Pods_ColorAdjuster_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -676,9 +585,9 @@
 			};
 			name = Debug;
 		};
-		212C9C52B5E295F298FCBFCD902AE8B6 /* Release */ = {
+		25E23F015FC47CA81FF8E297A05AB769 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD89159E51D91D47641E22925D1A2346 /* Pods-ColorAdjuster_Tests.release.xcconfig */;
+			baseConfigurationReference = 4ECAA8EF5CA8266764EA8CCE6981A325 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -687,25 +596,52 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ColorAdjuster_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ColorAdjuster_Tests/Pods-ColorAdjuster_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ColorAdjuster_Tests;
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+		56A639F75067E016A3D34852A554C5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1194F28D6549215EC48776FED832C65 /* ColorAdjuster.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorAdjuster/ColorAdjuster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorAdjuster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorAdjuster/ColorAdjuster.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ColorAdjuster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -737,16 +673,50 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		8D4F2DB09CBBCCAAE947B6D01402F0D1 /* Debug */ = {
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 734A9CEEA305325E1BCB9BF858D779F7 /* Pods-ColorAdjuster_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2B49BA5FE374A1DC2009EDCE29ED39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECAA8EF5CA8266764EA8CCE6981A325 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -755,16 +725,71 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ColorAdjuster_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ColorAdjuster_Example/Pods-ColorAdjuster_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B53AF51120F75592EC59F749B7397E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1194F28D6549215EC48776FED832C65 /* ColorAdjuster.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorAdjuster/ColorAdjuster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorAdjuster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorAdjuster/ColorAdjuster.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ColorAdjuster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C31B40658FE94D1720715CE5F439471A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D3EF8152B8A75A77CB2D084CE7A791 /* Pods-ColorAdjuster_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorAdjuster_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorAdjuster_Tests/Pods-ColorAdjuster_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ColorAdjuster_Example;
+				PRODUCT_NAME = Pods_ColorAdjuster_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -774,9 +799,9 @@
 			};
 			name = Debug;
 		};
-		9ACAE037CF955713F75E5196EE492A3F /* Release */ = {
+		C6334C0F8291A9754F77E10751808CF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E780D01D3DC2EFC358B53747117F059 /* Pods-ColorAdjuster_Example.release.xcconfig */;
+			baseConfigurationReference = 901B570DAAB7790BD0E8D016C5D22EDB /* Pods-ColorAdjuster_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -787,8 +812,9 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-ColorAdjuster_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ColorAdjuster_Example/Pods-ColorAdjuster_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -803,61 +829,35 @@
 			};
 			name = Release;
 		};
-		BBBB3C5571B513548E86ACED847F43DA /* Debug */ = {
+		E225AF8A0CCE55462EE1F78400FA18AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C277FB5EE2253761CBD58ECEC237C113 /* ColorAdjuster-Private.xcconfig */;
+			baseConfigurationReference = 6709484EA31194400A22047A41614F32 /* Pods-ColorAdjuster_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ColorAdjuster/ColorAdjuster-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ColorAdjuster/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorAdjuster_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ColorAdjuster/ColorAdjuster.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ColorAdjuster;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorAdjuster_Tests/Pods-ColorAdjuster_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ColorAdjuster_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		DE5DE1BAADA749E6C13FCA4597DB150B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11B2B92425EC83757295DFD7090C94B2 /* FBSnapshotTestCase-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.0.5;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -865,44 +865,44 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B6BCCF9BE459ED155ABB66126A72FA0 /* Build configuration list for PBXNativeTarget "Pods-ColorAdjuster_Example" */ = {
+		5B13D1F7B3EA8DABF6A10099F6EE409E /* Build configuration list for PBXNativeTarget "Pods-ColorAdjuster_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D4F2DB09CBBCCAAE947B6D01402F0D1 /* Debug */,
-				9ACAE037CF955713F75E5196EE492A3F /* Release */,
+				C31B40658FE94D1720715CE5F439471A /* Debug */,
+				E225AF8A0CCE55462EE1F78400FA18AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8326A91B4BEBC1A5FDEDDC2744A9A869 /* Build configuration list for PBXNativeTarget "Pods-ColorAdjuster_Tests" */ = {
+		8190FFF05349441FAF37B8A1BBEEBE18 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FAE15FF72C845C27FDE1446DF1D7568 /* Debug */,
-				212C9C52B5E295F298FCBFCD902AE8B6 /* Release */,
+				25E23F015FC47CA81FF8E297A05AB769 /* Debug */,
+				B2B49BA5FE374A1DC2009EDCE29ED39E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A567B73A4E8A6CC72A644561A2138EB8 /* Build configuration list for PBXNativeTarget "ColorAdjuster" */ = {
+		9C4F04D8E5FAEAE078476FAB44D590FE /* Build configuration list for PBXNativeTarget "ColorAdjuster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBBB3C5571B513548E86ACED847F43DA /* Debug */,
-				17997825E7CE3D78F3542654DDAB2A04 /* Release */,
+				56A639F75067E016A3D34852A554C5FC /* Debug */,
+				B53AF51120F75592EC59F749B7397E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1B61DF47640136F041CB766D9C96C90 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		DE04D2F43C89D849F7A121EE42E1B4F3 /* Build configuration list for PBXNativeTarget "Pods-ColorAdjuster_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE5DE1BAADA749E6C13FCA4597DB150B /* Debug */,
-				1BF8B16BF3A78FFC89BEA2D0CBF297ED /* Release */,
+				1AAD019A27E55DFB87734960002B9806 /* Debug */,
+				C6334C0F8291A9754F77E10751808CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

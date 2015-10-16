@@ -10,9 +10,6 @@ import UIKit
 
 public class ColorAdjuster: UIView {
     
-    static let sharedInstance = ColorAdjuster()
-    public var gradientLayer: CALayer?
-    
     /**
     Value of HBS
     */
@@ -31,6 +28,31 @@ public class ColorAdjuster: UIView {
         public var g: CGFloat = 0
         public var b: CGFloat = 0
         public var alpha: CGFloat = 1
+    }
+}
+
+public class ColorAdjusterGradientView {
+    
+    private weak var view: UIView?
+    private weak var gradientLayer: CAGradientLayer?
+    
+    init(view: UIView) {
+        self.view = view
+    }
+    
+    /**
+    Create gradation view
+    - parameter colors: [CGClor], locations: [CGFloat] =  Please the same count.
+    */
+    public func insertLayerVerticallyGradient(colors colors: [AnyObject], locations: [CGFloat]) {
+        guard let view = view else { return }
+        let layer = CAGradientLayer()
+        layer.frame = CGRect(origin: CGPoint.zero, size: view.frame.size)
+        layer.colors = colors as [AnyObject]
+        layer.locations = locations
+        gradientLayer?.removeFromSuperlayer()
+        gradientLayer = layer
+        view.layer.insertSublayer(layer, atIndex: 0)
     }
 }
 
@@ -101,20 +123,19 @@ extension UIColor {
     }
 }
 
+var colorAdjusterGradientViewAssociationKey = "colorAdjusterGradientViewAssociation"
+
 // MARK: - Create gradation view
 extension UIView {
     
-    /**
-    Create gradation view
-    - parameter colors: [CGClor], locations: [CGFloat] =  Please the same count.
-    */
-    public func layerVerticallyGradient(colors colors: [AnyObject], locations: [CGFloat]) {
-        let gradientLayer : CAGradientLayer = CAGradientLayer()
-        gradientLayer.frame = CGRect(origin: CGPoint.zero, size: frame.size)
-        gradientLayer.colors = colors as [AnyObject]
-        gradientLayer.locations = locations
-        ColorAdjuster.sharedInstance.gradientLayer?.removeFromSuperlayer()
-        ColorAdjuster.sharedInstance.gradientLayer = gradientLayer
-        layer.insertSublayer(gradientLayer, atIndex: 0)
+    public var ca_gradientLayer: ColorAdjusterGradientView {
+        get {
+            if let instance = objc_getAssociatedObject(self, &colorAdjusterGradientViewAssociationKey) as? ColorAdjusterGradientView {
+                return instance
+            }
+            let instance = ColorAdjusterGradientView(view: self)
+            objc_setAssociatedObject(self, &colorAdjusterGradientViewAssociationKey, instance, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            return instance
+        }
     }
 }

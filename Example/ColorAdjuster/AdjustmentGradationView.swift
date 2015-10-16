@@ -38,7 +38,7 @@ class AdjustmentGradationView: UIView {
             let location = CGFloat(100 / i) / 50
             locations.append(location)
         }
-        targetView.layerVerticallyGradient(colors: colors, locations: locations)
+        targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, locations: locations)
         colorsLabel.text = "Colors = \(colors)"
         locationsLabel.text = "Locations = \(locations)"
     }

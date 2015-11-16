@@ -110,19 +110,19 @@ Appoint Angle = Zero
 ```swift
 targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .Zero)
 ```
-![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Zero?raw=true)
+![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Zero.png?raw=true)
 
 Appoint Angle = FortyFive
 ```swift
 targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .FortyFive)
 ```
-![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/FortyFive?raw=true)
+![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/FortyFive.png?raw=true)
 
 Appoint Ninety
 ```swift
 targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .Ninety)
 ```
-![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Ninety?raw=true)
+![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Ninety.png?raw=true)
 
 ### Function
 

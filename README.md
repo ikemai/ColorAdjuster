@@ -36,7 +36,7 @@ it, simply add the following line to your Podfile:
 pod "ColorAdjuster"
 ```
 
-### Example
+## Example
 
 * Appoint it in hexadecimal and create UIColor.
 
@@ -44,8 +44,7 @@ pod "ColorAdjuster"
 let color = UIColor(hex: 0xB7EAE7)
 ```
 
-## HBS
----
+# HBS
 
 * Ajustment color of HBS.
 
@@ -71,8 +70,8 @@ if let hbs = adjustmentColor?.colorHBS() {
 }
 ```
 
-## RGB
----
+# RGB
+
 * Ajustment color of RGB.
 
 ```swift
@@ -90,9 +89,7 @@ if let rbg = adjustmentColor?.colorRGB() {
 }
 ```
 
-----
-
-## Create gradation view.
+# Create gradation view.
 
 ```swift
 let targetView = UIView(frame: frame)
@@ -105,6 +102,7 @@ Appoint locations
 let locations: [CGFloat] = [0.0, 1.0]
 targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, locations: locations)
 ```
+![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Zero.png?raw=true)
 
 Appoint startPoint and endPoint
 ```swift
@@ -112,6 +110,7 @@ let startPoint = CGPointMake(1, 0.5)
 let endPoint = CGPointMake(0, 0.5)
 targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, startPoint: startPoint, endPoint: endPoint)
 ```
+![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Ninety.png?raw=true)
 
 Appoint Angle = Zero
 ```swift

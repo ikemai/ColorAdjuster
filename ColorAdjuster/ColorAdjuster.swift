@@ -32,6 +32,10 @@ public class ColorAdjuster: UIView {
 }
 
 public class ColorAdjusterGradientView {
+
+    public enum Angle {
+        case Zero, FortyFive, Ninety
+    }
     
     private weak var view: UIView?
     private weak var gradientLayer: CAGradientLayer?
@@ -45,14 +49,62 @@ public class ColorAdjusterGradientView {
     - parameter colors: [CGClor], locations: [CGFloat] =  Please the same count.
     */
     public func insertLayerVerticallyGradient(colors colors: [CGColor], locations: [CGFloat]) {
+        insertLayerVerticallyGradient(colors, locations: locations)
+    }
+    
+    /**
+     Create gradation view
+     - parameter colors: [CGClor], startPoint: CGPoint, endPoint: CGPoint
+     */
+    public func insertLayerVerticallyGradient(colors colors: [CGColor], startPoint: CGPoint, endPoint: CGPoint) {
+        insertLayerVerticallyGradient(colors, startPoint: startPoint, endPoint: endPoint)
+    }
+    
+    /**
+     Create gradation view
+     - parameter colors: [CGClor], angle: Angle
+     */
+    public func insertLayerVerticallyGradient(colors colors: [CGColor], angle: Angle) {
+        insertLayerVerticallyGradient(colors, angle: angle)
+    }
+    
+    private func insertLayerVerticallyGradient(colors: [CGColor], locations: [CGFloat]? = nil, startPoint: CGPoint? = nil, endPoint: CGPoint? = nil, angle: Angle? = nil) {
         guard let view = view else { return }
         let layer = CAGradientLayer()
         layer.frame = CGRect(origin: CGPoint.zero, size: view.frame.size)
         layer.colors = colors as [AnyObject]
-        layer.locations = locations
+        if let locations = locations {
+            layer.locations = locations
+        }
+        if let startPoint = startPoint, endPoint = endPoint {
+            layer.startPoint = startPoint
+            layer.endPoint = endPoint
+        }
+        if let angle = angle {
+            let points = getAnglePoint(angle)
+            layer.startPoint = points[0]
+            layer.endPoint = points[1]
+        }
         gradientLayer?.removeFromSuperlayer()
         gradientLayer = layer
         view.layer.insertSublayer(layer, atIndex: 0)
+    }
+    
+    private func getAnglePoint(angle: Angle) -> [CGPoint] {
+        var startPoint: CGPoint
+        var endPoint: CGPoint
+        switch angle {
+        case .Zero:
+            startPoint = CGPointMake(0.5, 0)
+            endPoint = CGPointMake(0.5, 1)
+        case .FortyFive:
+            startPoint = CGPointMake(1, 0)
+            endPoint = CGPointMake(0, 1)
+        case .Ninety:
+            startPoint = CGPointMake(1, 0.5)
+            endPoint = CGPointMake(0, 0.5)
+        }
+        return [startPoint, endPoint]
     }
 }
 

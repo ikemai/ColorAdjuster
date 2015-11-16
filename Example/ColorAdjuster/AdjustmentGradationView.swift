@@ -16,7 +16,7 @@ class AdjustmentGradationView: UIView {
     @IBOutlet weak var locationsLabel: UILabel!
     
     private var colors: [CGColor] = []
-    private var locations: [CGFloat] = [0]
+    private var locations: [CGFloat] = []
     
     override func awakeFromNib() {
         super.awakeFromNib()

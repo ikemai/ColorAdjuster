@@ -89,13 +89,40 @@ if let rbg = adjustmentColor?.colorRGB() {
 
 ```swift
 let targetView = UIView(frame: frame)
-let colors: [CGColor] = [UIColor.whiteColor().CGColor, UIColor.redColor().CGColor]
-let locations: [CGFloat] = [0.0, 1.0]
-
-targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, locations: locations)
-
+let colors: [CGColor] = [UIColor.redColor().CGColor, UIColor.magentaColor().CGColor]
 view.addSubView(targetView)
 ```
+
+Appoint locations
+```swift
+let locations: [CGFloat] = [0.0, 1.0]
+targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, locations: locations)
+```
+
+Appoint startPoint and endPoint
+```swift
+let startPoint = CGPointMake(1, 0.5)
+let endPoint = CGPointMake(0, 0.5)
+targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, startPoint: startPoint, endPoint: endPoint)
+```
+
+Appoint Angle = Zero
+```swift
+targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .Zero)
+```
+![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Zero?raw=true)
+
+Appoint Angle = FortyFive
+```swift
+targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .FortyFive)
+```
+![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/FortyFive?raw=true)
+
+Appoint Ninety
+```swift
+targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .Ninety)
+```
+![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Ninety?raw=true)
 
 ### Function
 

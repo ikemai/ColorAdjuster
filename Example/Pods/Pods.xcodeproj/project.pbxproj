@@ -117,7 +117,7 @@
 		F1194F28D6549215EC48776FED832C65 /* ColorAdjuster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorAdjuster.xcconfig; sourceTree = "<group>"; };
 		F19621A55D90116B728D6C61C1B25EB8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F5ED84C3F8D806E26ABAF60D48D5CCC5 /* Pods-ColorAdjuster_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorAdjuster_Tests-resources.sh"; sourceTree = "<group>"; };
-		FFFD791B8609A8EBB7B67338759F1EA9 /* ColorAdjuster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorAdjuster.swift; sourceTree = "<group>"; };
+		FFFD791B8609A8EBB7B67338759F1EA9 /* ColorAdjuster.swift */ = {isa = PBXFileReference; includeInIndex = 1; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ColorAdjuster.swift; sourceTree = "<group>"; tabWidth = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

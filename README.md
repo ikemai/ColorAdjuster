@@ -53,13 +53,6 @@ let adjustmentColor = color.colorWithHBSComponent(hue: hueValue, brightness: bri
 adjustmentColorView.backgroundColor = adjustmentColor
 ```
 
-* Ajustment color of HBS.
-
-```swift
-let adjustmentColor = color.colorWithHBSComponent(hue: hueValue, brightness: brightnessValue, saturation: saturationValue)
-adjustmentColorView.backgroundColor = adjustmentColor
-```
-
 * Get HBS value of color.
 
 ```swift
@@ -130,7 +123,7 @@ targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, angle:
 ```
 ![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Ninety.png?raw=true)
 
-### Function
+## Function
 
 * Appoint it in hexadecimal and create UIColor.
 
@@ -169,7 +162,7 @@ public func insertLayerVerticallyGradient(colors colors: [CGColor], locations: [
 
 ```
 
-### Properties
+## Properties
 
 * Value of HBS
 

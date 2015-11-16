@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		802687841BCF349600B96CD7 /* ColorAdjuster.h in Headers */ = {isa = PBXBuildFile; fileRef = 802687831BCF349600B96CD7 /* ColorAdjuster.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8026878B1BCF349600B96CD7 /* ColorAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802687801BCF349600B96CD7 /* ColorAdjuster.framework */; settings = {ASSET_TAGS = (); }; };
+		8026878B1BCF349600B96CD7 /* ColorAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802687801BCF349600B96CD7 /* ColorAdjuster.framework */; };
 		802687901BCF349600B96CD7 /* ColorAdjusterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8026878F1BCF349600B96CD7 /* ColorAdjusterTests.swift */; };
-		8026879B1BCF34A900B96CD7 /* ColorAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8026879A1BCF34A900B96CD7 /* ColorAdjuster.swift */; settings = {ASSET_TAGS = (); }; };
+		8026879B1BCF34A900B96CD7 /* ColorAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8026879A1BCF34A900B96CD7 /* ColorAdjuster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */

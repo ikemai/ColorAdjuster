@@ -44,6 +44,9 @@ pod "ColorAdjuster"
 let color = UIColor(hex: 0xB7EAE7)
 ```
 
+## HBS
+---
+
 * Ajustment color of HBS.
 
 ```swift
@@ -68,6 +71,8 @@ if let hbs = adjustmentColor?.colorHBS() {
 }
 ```
 
+## RGB
+---
 * Ajustment color of RGB.
 
 ```swift
@@ -85,7 +90,9 @@ if let rbg = adjustmentColor?.colorRGB() {
 }
 ```
 
-* Create gradation view.
+----
+
+## Create gradation view.
 
 ```swift
 let targetView = UIView(frame: frame)

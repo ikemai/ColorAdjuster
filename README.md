@@ -93,7 +93,7 @@ view.addSubView(targetView)
 Appoint locations
 ```swift
 let locations: [CGFloat] = [0.0, 1.0]
-targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, locations: locations)
+targetView.gradientLayer.insertLayerVerticallyGradient(colors: colors, locations: locations)
 ```
 ![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Zero.png?raw=true)
 
@@ -101,25 +101,25 @@ Appoint startPoint and endPoint
 ```swift
 let startPoint = CGPointMake(1, 0.5)
 let endPoint = CGPointMake(0, 0.5)
-targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, startPoint: startPoint, endPoint: endPoint)
+targetView.gradientLayer.insertLayerVerticallyGradient(colors: colors, startPoint: startPoint, endPoint: endPoint)
 ```
 ![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Ninety.png?raw=true)
 
 Appoint Angle = Zero
 ```swift
-targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .Zero)
+targetView.gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .Zero)
 ```
 ![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Zero.png?raw=true)
 
 Appoint Angle = FortyFive
 ```swift
-targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .FortyFive)
+targetView.gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .FortyFive)
 ```
 ![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/FortyFive.png?raw=true)
 
 Appoint Ninety
 ```swift
-targetView.ca_gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .Ninety)
+targetView.gradientLayer.insertLayerVerticallyGradient(colors: colors, angle: .Ninety)
 ```
 ![Png](https://github.com/ikemai/assets/blob/master/ColorAdjuster/Ninety.png?raw=true)
 

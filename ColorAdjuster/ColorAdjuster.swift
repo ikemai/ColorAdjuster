@@ -180,7 +180,7 @@ var colorAdjusterGradientViewAssociationKey = "colorAdjusterGradientViewAssociat
 // MARK: - Create gradation view
 extension UIView {
     
-    public var ca_gradientLayer: ColorAdjusterGradientView {
+    public var gradientLayer: ColorAdjusterGradientView {
         get {
             if let instance = objc_getAssociatedObject(self, &colorAdjusterGradientViewAssociationKey) as? ColorAdjusterGradientView {
                 return instance

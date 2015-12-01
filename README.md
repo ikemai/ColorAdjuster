@@ -68,7 +68,7 @@ if let hbs = adjustmentColor?.colorHBS() {
 * Ajustment color of RGB.
 
 ```swift
-let adjustmentColor = color.colorWithRGBComponent(r: rValue, g: gValue, b: bValue)
+let adjustmentColor = color.colorWithRGBComponent(red: rValue, green: gValue, blue: bValue)
 targetView.backgroundColor = adjustmentColor
 ```
 
@@ -76,9 +76,9 @@ targetView.backgroundColor = adjustmentColor
 
 ```swift
 if let rbg = adjustmentColor?.colorRGB() {
-    print("Red = \(rbg.r)")
-    print("Green = \(rbg.g)")
-    print("Blue = \(rbg.b)")
+    print("Red = \(rbg.red)")
+    print("Green = \(rbg.green)")
+    print("Blue = \(rbg.blue)")
 }
 ```
 

@@ -40,13 +40,13 @@ class AdjustmentRbgView: UIView {
     func updateRGBColor() {
         guard let color = baseView.backgroundColor else { return }
         
-        let adjustmentColor = color.colorWithRGBComponent(r: rValue, g: gValue, b: bValue)
+        let adjustmentColor = color.colorWithRGBComponent(red: rValue, green: gValue, blue: bValue)
         targetView.backgroundColor = adjustmentColor
         
         if let rbg = adjustmentColor?.colorRGB() {
-            let r = Double(Int(rbg.r * 100)) / 100
-            let g = Double(Int(rbg.g * 100)) / 100
-            let b = Double(Int(rbg.b * 100)) / 100
+            let r = Double(Int(rbg.red * 100)) / 100
+            let g = Double(Int(rbg.green * 100)) / 100
+            let b = Double(Int(rbg.blue * 100)) / 100
             rgbLabel.text = "R = \(r) : G = \(g) : B = \(b)"
         }
     }

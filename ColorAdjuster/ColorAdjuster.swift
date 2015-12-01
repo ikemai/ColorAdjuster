@@ -24,9 +24,9 @@ public class ColorAdjuster: UIView {
     Value of RGB
     */
     public struct RGBProperties {
-        public var r: CGFloat = 0
-        public var g: CGFloat = 0
-        public var b: CGFloat = 0
+        public var red: CGFloat = 0
+        public var green: CGFloat = 0
+        public var blue: CGFloat = 0
         public var alpha: CGFloat = 1
     }
 }
@@ -114,11 +114,11 @@ extension UIColor {
     Appoint it in hexadecimal and create UIColor.
     */
     public convenience init(hex: Int, alpha: CGFloat = 1) {
-        let r = CGFloat((hex & 0xFF0000) >> 16) / 255
-        let g = CGFloat((hex & 0x00FF00) >> 8 ) / 255
-        let b = CGFloat((hex & 0x0000FF) >> 0 ) / 255
+        let red = CGFloat((hex & 0xFF0000) >> 16) / 255
+        let green = CGFloat((hex & 0x00FF00) >> 8 ) / 255
+        let blue = CGFloat((hex & 0x0000FF) >> 0 ) / 255
         
-        self.init(red: r, green: g, blue: b, alpha: alpha)
+        self.init(red: red, green: green, blue: blue, alpha: alpha)
     }
 }
 
@@ -155,9 +155,9 @@ extension UIColor {
     Adjustment color by RGB
     - parameter hue, brightness, saturation = 0~1
     */
-    public func colorWithRGBComponent(r r: CGFloat, g: CGFloat, b: CGFloat) -> UIColor? {
+    public func colorWithRGBComponent(red red: CGFloat, green: CGFloat, blue: CGFloat) -> UIColor? {
         if let rgb = colorRGB() {
-            return UIColor(red: (rgb.r * r), green: (rgb.g * g), blue: (rgb.b * b), alpha: rgb.alpha)
+            return UIColor(red: (rgb.red * red), green: (rgb.green * green), blue: (rgb.blue * blue), alpha: rgb.alpha)
         }
         return nil
     }
@@ -167,7 +167,7 @@ extension UIColor {
     */
     public func colorRGB() -> ColorAdjuster.RGBProperties? {
         var rgb = ColorAdjuster.RGBProperties()
-        let converted = getRed(&rgb.r, green: &rgb.g, blue: &rgb.b, alpha: &rgb.alpha)
+        let converted = getRed(&rgb.red, green: &rgb.green, blue: &rgb.blue, alpha: &rgb.alpha)
         if converted {
             return rgb
         }

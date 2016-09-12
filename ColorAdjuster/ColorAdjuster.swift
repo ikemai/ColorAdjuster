@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class ColorAdjuster: UIView {
+open class ColorAdjuster: UIView {
     
     /**
     Value of HBS
@@ -31,14 +31,14 @@ public class ColorAdjuster: UIView {
     }
 }
 
-public class ColorAdjusterGradientView {
+open class ColorAdjusterGradientView {
 
     public enum Angle {
-        case Zero, FortyFive, Ninety
+        case zero, fortyFive, ninety
     }
     
-    private weak var view: UIView?
-    private weak var gradientLayer: CAGradientLayer?
+    fileprivate weak var view: UIView?
+    fileprivate weak var gradientLayer: CAGradientLayer?
     
     init(view: UIView) {
         self.view = view
@@ -48,7 +48,7 @@ public class ColorAdjusterGradientView {
     Create gradation view
     - parameter colors: [CGClor], locations: [CGFloat] =  Please the same count.
     */
-    public func insertLayerVerticallyGradient(colors colors: [CGColor], locations: [CGFloat]) {
+    open func insertLayerVerticallyGradient(colors: [CGColor], locations: [CGFloat]) {
         insertLayerVerticallyGradient(colors, locations: locations)
     }
     
@@ -56,7 +56,7 @@ public class ColorAdjusterGradientView {
      Create gradation view
      - parameter colors: [CGClor], startPoint: CGPoint, endPoint: CGPoint
      */
-    public func insertLayerVerticallyGradient(colors colors: [CGColor], startPoint: CGPoint, endPoint: CGPoint) {
+    open func insertLayerVerticallyGradient(colors: [CGColor], startPoint: CGPoint, endPoint: CGPoint) {
         insertLayerVerticallyGradient(colors, startPoint: startPoint, endPoint: endPoint)
     }
     
@@ -64,19 +64,19 @@ public class ColorAdjusterGradientView {
      Create gradation view
      - parameter colors: [CGClor], angle: Angle
      */
-    public func insertLayerVerticallyGradient(colors colors: [CGColor], angle: Angle) {
+    open func insertLayerVerticallyGradient(colors: [CGColor], angle: Angle) {
         insertLayerVerticallyGradient(colors, angle: angle)
     }
     
-    private func insertLayerVerticallyGradient(colors: [CGColor], locations: [CGFloat]? = nil, startPoint: CGPoint? = nil, endPoint: CGPoint? = nil, angle: Angle? = nil) {
+    fileprivate func insertLayerVerticallyGradient(_ colors: [CGColor], locations: [CGFloat]? = nil, startPoint: CGPoint? = nil, endPoint: CGPoint? = nil, angle: Angle? = nil) {
         guard let view = view else { return }
         let layer = CAGradientLayer()
         layer.frame = CGRect(origin: CGPoint.zero, size: view.frame.size)
         layer.colors = colors as [AnyObject]
         if let locations = locations {
-            layer.locations = locations
+            layer.locations = locations as [NSNumber]?
         }
-        if let startPoint = startPoint, endPoint = endPoint {
+        if let startPoint = startPoint, let endPoint = endPoint {
             layer.startPoint = startPoint
             layer.endPoint = endPoint
         }
@@ -87,22 +87,22 @@ public class ColorAdjusterGradientView {
         }
         gradientLayer?.removeFromSuperlayer()
         gradientLayer = layer
-        view.layer.insertSublayer(layer, atIndex: 0)
+        view.layer.insertSublayer(layer, at: 0)
     }
     
-    private func getAnglePoint(angle: Angle) -> [CGPoint] {
+    fileprivate func getAnglePoint(_ angle: Angle) -> [CGPoint] {
         var startPoint: CGPoint
         var endPoint: CGPoint
         switch angle {
-        case .Zero:
-            startPoint = CGPointMake(0.5, 0)
-            endPoint = CGPointMake(0.5, 1)
-        case .FortyFive:
-            startPoint = CGPointMake(1, 0)
-            endPoint = CGPointMake(0, 1)
-        case .Ninety:
-            startPoint = CGPointMake(1, 0.5)
-            endPoint = CGPointMake(0, 0.5)
+        case .zero:
+            startPoint = CGPoint(x: 0.5, y: 0)
+            endPoint = CGPoint(x: 0.5, y: 1)
+        case .fortyFive:
+            startPoint = CGPoint(x: 1, y: 0)
+            endPoint = CGPoint(x: 0, y: 1)
+        case .ninety:
+            startPoint = CGPoint(x: 1, y: 0.5)
+            endPoint = CGPoint(x: 0, y: 0.5)
         }
         return [startPoint, endPoint]
     }
@@ -129,7 +129,7 @@ extension UIColor {
     Adjustment color by HBS
     - parameter hue, brightness, saturation = 0~1
     */
-    public func colorWithHBSComponent(hue hue: CGFloat, brightness: CGFloat, saturation: CGFloat) -> UIColor? {
+    public func colorWithHBSComponent(hue: CGFloat, brightness: CGFloat, saturation: CGFloat) -> UIColor? {
         if let hbs = colorHBS() {
             return UIColor(hue: (hbs.hue * hue), saturation: (hbs.saturation * saturation), brightness: (hbs.brightness * brightness), alpha: hbs.alpha)
         }
@@ -155,7 +155,7 @@ extension UIColor {
     Adjustment color by RGB
     - parameter hue, brightness, saturation = 0~1
     */
-    public func colorWithRGBComponent(red red: CGFloat, green: CGFloat, blue: CGFloat) -> UIColor? {
+    public func colorWithRGBComponent(red: CGFloat, green: CGFloat, blue: CGFloat) -> UIColor? {
         if let rgb = colorRGB() {
             return UIColor(red: (rgb.red * red), green: (rgb.green * green), blue: (rgb.blue * blue), alpha: rgb.alpha)
         }
